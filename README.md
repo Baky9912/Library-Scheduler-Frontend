@@ -18,3 +18,6 @@ Built using **HTML5**, **CSS3**, and **Bootstrap 4**, it features both user and 
 
 ## Usage
 Open `homepage.html` in a browser.
+
+<img width="1256" height="700" alt="image" src="https://github.com/user-attachments/assets/c35bc9a7-a358-4c7b-8e2f-b9868148c8f7" />
+<img width="1271" height="698" alt="image" src="https://github.com/user-attachments/assets/0a2f55ab-e6f5-49f3-a296-e76ccb68d532" />
