@@ -1,5 +1,7 @@
 # Library Scheduler Frontend
 
+2024 Project Managment Homework at [RAF](https://raf.edu.rs/)
+
 A responsive web interface for managing library events and room reservations.  
 Built using **HTML5**, **CSS3**, and **Bootstrap 4**, it features both user and admin views for scheduling and management tasks.
 
