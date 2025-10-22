@@ -1,2 +1,18 @@
-# Library-Scheduler-Frontend
-Interactive web frontend for a Library Scheduler system built with HTML, CSS, and Bootstrap. Provides users with event browsing, room scheduling, and admin management interfaces. Designed with responsive layouts and a consistent visual style.
+# Library Scheduler Frontend
+
+A responsive web interface for managing library events and room reservations.  
+Built using **HTML5**, **CSS3**, and **Bootstrap 4**, it features both user and admin views for scheduling and management tasks.
+
+## Files
+- `homepage.html` – Event and user overview  
+- `login.html` – User login interface  
+- `roomscheduler.html` – Room booking layout
+- `roomadmin.html` – Admin room management table  
+- `main.css` – Styling and responsive design rules  
+
+## Technologies
+- **HTML5**
+- **CSS3 / Bootstrap 4**
+
+## Usage
+Open `homepage.html` in a browser.
