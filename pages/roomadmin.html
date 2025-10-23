@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./main.css">
+
+    <script src="https://kit.fontawesome.com/287a05c52a.js"
+      crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+
+    <title>Room Admin</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Library Scheduler</a>
+        <button
+          data-mdb-collapse-init
+          class="navbar-toggler"
+          type="button"
+          data-mdb-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page"
+                href="./homepage.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./roomscheduler.html">Rooms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./login.html">Log in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./roomadmin.html">Admin</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <button type="button"
+        class="btn btn-success buttontext buttonsgroup">Confirm all
+        changes</button>
+      <a href="./homepage.html">
+      <button type="button"
+        class="btn btn-success buttontext buttonsgroup">Back</button>
+        </a>
+    </div>
+
+    <div class="container border rounded">
+      <p class="tabletitle">Room Administration</p>
+      <table class="table table-responsive-lg mx-auto">
+        <thead class="tabletext">
+          <tr>
+            <th scope="col">Rooms/ Info</th>
+            <th scope="col">Capacity</th>
+            <th scope="col">E.Speakers</th>
+            <th scope="col">E.Book</th>
+            <th scope="col">Projector</th>
+            <th scope="col">Supports Water</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row text-center">Amphitheater 1</th>
+            <td>100</td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td>Original room</td>
+          </tr>
+          <tr>
+            <th scope="row">Amphitheater 2</th>
+            <td>120</td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td>Most popular</td>
+          </tr>
+          <tr>
+            <th scope="row">Reading Room 1</th>
+            <td>80</td>
+            <td><img src="../assets/images/cancel_3.png" /></td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td><img src="../assets/images/cancel_3.png" /></td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td>Basic</td>
+          </tr>
+          <tr>
+            <th scope="row">Reading Room 2</th>
+            <td>80</td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td><img src="../assets/images/cancel_3.png" /></td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td>Private</td>
+          </tr>
+          <tr>
+            <th scope="row">Reading Room 3</th>
+            <td>215</td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td><img src="../assets/images/cancel_3.png" /></td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td>Public</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Computer Room 1</th>
+            <td>100</td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td><img src="../assets/images/cancel_3.png" /></td>
+            <td>Kids friendly</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Computer Room 2</th>
+            <td>100</td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td><img src="../assets/images/cancel_3.png" /></td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td><img src="../assets/images/check_2.png" /></td>
+            <td>Quiet Room</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+
+    <div class="divider"></div>
+    <br><br>
+
+    <div class="navigation-footer">
+      <div class="footertext">Library Scheduler</div>
+      <div class="social-icons">
+        <div class="buttons-icon">
+          <img class="icon" src="../assets/vectors/icon_18_x2.svg" />
+        </div>
+        <div class="buttons-icon-1">
+          <img class="icon-1" src="../assets/vectors/icon_3_x2.svg" />
+        </div>
+        <div class="buttons-icon-2">
+          <img class="icon-2" src="../assets/vectors/icon_10_x2.svg" />
+        </div>
+        <div class="buttons-icon-3">
+          <img class="icon-3" src="../assets/vectors/icon_2_x2.svg" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
